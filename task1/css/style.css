@@ -20,42 +20,46 @@ a{
 div.header {
 	margin-top:40px;
 	background-color:#202020;
-	padding:15px;
 	border-left:5px solid #d54ab6;
-	overflow:hidden;
-	
+	overflow:hidden;	
 }
 
 .header .logo{
 	float:left;
+	padding:13px 20px;
+
 }
 .header .logo h3 {
 	text-transform:uppercase;	
 	color:white;
 	font-weight:400;
-	font-size:22px;
+	font-size:30px;
 	letter-spacing:.2px;
-
 }
-.header div.logo h3:before{
+.header .logo h3:before{
 	content:'';
-	padding:10px;
-	//width:5px;
-	//height:5px;
+	padding:13px;
 	display:inline-block;
 	background-color:#d54ab6;
 	border-radius:50%;
 }
 .header .navbar{
 	float:right;
+	text-transform:uppercase;
 }
 .header .navbar ul{
-
+	list-style:none;
 }
 .header .navbar ul li{
-	
+	float:left;
+	padding: 24px;
 }
+.header .navbar ul li:hover{
+	background-color:#333333;
+}
+.header .navbar ul li a{
+	color:#ebe8eb;
+	font-weight:300;
+}
+
 /* End Header */
-div.slider {
-	
-}
